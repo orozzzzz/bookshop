@@ -1,0 +1,22 @@
+<table border="0">
+  <tr *ngFor="let b of basket; let i = index;" class="line">
+    <td width="70"><img height="90" width="70" src="../../assets/books/{{b.pic}}"></td>
+    <td width="400">{{b.name}}<br>{{b.author}}</td>
+    <td width="100" align="right">
+      <input type="button" value="-" (click)="Item(b.id,3,i)">
+      {{b.count}}
+      <input type="button" value="+" (click)="Item(b.id,2,i)">
+      <br>
+      {{b.price}}р.
+      <br>
+      <input type="button" value="Удалить" (click)="Item(b.id,4,i)">
+    </td>
+  </tr>
+  <tr>
+    <td *ngFor="let a of info; let j = index;" colspan="4" align="center">Количество товаров в корзине:
+      {{a.total_count}}
+      <br>
+      Общая стоимость: {{a.total_price}}
+    </td>
+  </tr>
+</table>

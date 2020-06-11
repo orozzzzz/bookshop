@@ -1,0 +1,32 @@
+#about{
+    position: relative;
+    width: 100%;
+    margin-top: -50px;
+  }
+  #about_img{
+    position: absolute;
+    overflow: hidden;
+    margin-top: 70px;
+    margin-left: 130px;
+    position: relative;
+    height: 600px;
+    width: 35%;
+  }
+  #about p{
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 530px;
+    margin-right: 130px;
+    font-size: 1.1em;
+    font-family: 'Georgia';
+    line-height: 1.7em;
+  
+  }
+  #about strong{
+    color: #800000;
+  }
+  
+  #about_img img{
+    margin-bottom: 30px;
+  }
+  

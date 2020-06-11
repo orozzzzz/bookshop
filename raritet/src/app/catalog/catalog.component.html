@@ -1,0 +1,45 @@
+<div class="catalog">
+    <div class="genres">
+        <a (click)='getItemsId(0)'>Все категории</a>
+        <div *ngFor="let c of catalog;let i = index">
+            <a (click)="getItemsId(c.id_genre)">{{c.name_genre}}</a>
+            <br>
+        </div>
+    </div>
+
+    <div class="item">
+        <div *ngFor="let a of items; let n = index">
+            <table border="0">
+                <tr>
+                    <td rowspan="4" width="150"><img height="180" width="140" src="../../assets/books/{{a.pic}}"></td>
+                    <td colspan="2">
+                        <div class="bookname">{{a.name}}</div>
+
+                        <div class="author">{{a.author}}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="160">
+                        <div class="ph_title">Издательство:</div>
+                        <div class="ph">{{a.ph}}</div>
+                    </td>
+                    <td align="right">
+                        <div class=year_title>Год издания:</div>
+                        <div class="year">{{a.year}}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" width="600" class="annotation">
+                        {{a.annotation.substring(0,350)+"..."}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="price">{{a.price}}p.</div>
+                    </td>
+                    <td align="right"><button (click)="Item(a.id,1)" class="btn-1">В корзину</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

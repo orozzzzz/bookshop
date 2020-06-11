@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+	background:#e4ebe9 url(assets/pattern.png) repeat top left;
+    color:#000;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

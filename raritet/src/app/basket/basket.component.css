@@ -1,0 +1,21 @@
+table{
+    margin-top: 50px;
+    widows: 90%;
+    margin: auto;
+}
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+tr:last-child>td:last-child{
+    background-color: rgb(233, 147, 17);
+}
+.line{
+    border-bottom: 1px solid black;
+}
+.empty{
+    width: 100px;
+    margin: auto auto;
+    margin-top: 20px;
+}

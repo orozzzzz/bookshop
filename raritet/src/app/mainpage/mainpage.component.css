@@ -1,0 +1,70 @@
+
+#second{
+    height: 700px;
+    width: 100%;
+    background:
+     -webkit-linear-gradient(315deg, hsla(226.78, 5.63%, 39.22%, 1) 0%, hsla(226.78, 5.63%, 39.22%, 0) 70%),
+      -webkit-linear-gradient(65deg, hsla(193.97, 5.63%, 20.14%, 1) 10%, hsla(193.97, 5.63%, 20.14%, 0) 80%),
+      -webkit-linear-gradient(135deg, hsla(233.07, 0%, 27.72%, 1) 15%, hsla(233.07, 0%, 27.72%, 0) 80%),
+      -webkit-linear-gradient(205deg, hsla(188.11, 0%, 93.85%, 1) 100%, hsla(188.11, 0%, 93.85%, 0) 70%);
+    background:
+      linear-gradient(135deg, hsla(226.78, 5.63%, 39.22%, 1) 0%, hsla(226.78, 5.63%, 39.22%, 0) 70%),
+      linear-gradient(25deg, hsla(193.97, 5.63%, 20.14%, 1) 10%, hsla(193.97, 5.63%, 20.14%, 0) 80%),
+      linear-gradient(315deg, hsla(233.07, 0%, 27.72%, 1) 15%, hsla(233.07, 0%, 27.72%, 0) 80%),
+      linear-gradient(245deg, hsla(188.11, 0%, 93.85%, 1) 100%, hsla(188.11, 0%, 93.85%, 0) 70%);
+    }
+  #second{
+      width: 100%;
+  }
+  #second img{
+    margin: 100px 0px 80px 180px;
+    position: absolute;
+  }
+  #second h1{
+    float: right;
+    margin-top: 120px;
+    margin-left: 750px;
+    position: absolute;
+    color: white;
+    font-family: 'Georgia'
+  }
+  #second p{
+    float: right;
+    margin-top: 200px;
+    margin-left: 600px;
+    position: absolute;
+    width: 700px;
+    color: white;
+    font-family: 'Georgia';
+    font-size: 1.1em;
+    line-height: 2em;
+  }
+
+  
+
+#third{
+    background-color: white;
+    height: 700px;
+    width: 100%;
+  }
+  #third h1{
+    font-family: 'Coustard';
+    color: #8b0b0b;
+    margin: 30px 0px 30px 450px;
+    position: absolute;
+  }
+  #third p{
+    position: absolute;
+    font-family: 'Georgia';
+    color: #276390;
+    text-align-last: center;
+    font-size: 1.8em;
+    margin: 110px 0px 0px 100px;
+  }
+  #third iframe{
+    
+    margin:200px 0px 200px 320px;
+  }
+  
+
+  

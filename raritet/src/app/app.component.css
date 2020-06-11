@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Hamerslag';
+    src: url('../fonts/Hamerslag.ttf');
+  }
+header{
+    margin: 0;
+    padding: 0;
+    background:
+    -webkit-linear-gradient(315deg, hsla(107.97, 3.92%, 17.36%, 1) 0%, hsla(107.97, 3.92%, 17.36%, 0) 70%),
+    -webkit-linear-gradient(65deg, hsla(112.91, 0%, 13.2%, 1) 10%, hsla(112.91, 0%, 13.2%, 0) 80%),
+    -webkit-linear-gradient(135deg, hsla(152.3, 8.7%, 23.28%, 1) 15%, hsla(152.3, 8.7%, 23.28%, 0) 80%),
+    -webkit-linear-gradient(205deg, hsla(177.37, 0.89%, 4.29%, 1) 100%, hsla(177.37, 0.89%, 4.29%, 0) 70%);
+  background:
+    linear-gradient(135deg, hsla(107.97, 3.92%, 17.36%, 1) 0%, hsla(107.97, 3.92%, 17.36%, 0) 70%),
+    linear-gradient(25deg, hsla(112.91, 0%, 13.2%, 1) 10%, hsla(112.91, 0%, 13.2%, 0) 80%),
+    linear-gradient(315deg, hsla(152.3, 8.7%, 23.28%, 1) 15%, hsla(152.3, 8.7%, 23.28%, 0) 80%),
+    linear-gradient(245deg, hsla(177.37, 0.89%, 4.29%, 1) 100%, hsla(177.37, 0.89%, 4.29%, 0) 70%);
+  	height: 20%;
+}
+#navigation{
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New",Courier,monospace;
+    width: 100%;
+    padding: 0% 0% 0% 0%;
+}
+#navigation li{
+    display: inline;
+    margin: 0px 3px;
+}
+#navigation a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 6px 18px 5px 18px;
+    font-size: 1.5em;
+  font-family: 'Hamerslag';
+}
+#navigation a:hover, a.on{
+    color: #e5631c
+}
+.info{
+  color: white;
+  display: block;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
