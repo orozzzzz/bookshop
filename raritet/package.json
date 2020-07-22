@@ -13,7 +13,7 @@
   "dependencies": {
     "websocket-extensions": ">=0.1.4",
     "acorn": ">=5.7.4",
-    "minimist": ">=0.2.1",
+    "minimist": ">=1.2.3",
     "kind-of": ">=6.0.3",
     "serialize-javascript": ">=2.1.1",
     "@angular/animations": "^6.1.0",
